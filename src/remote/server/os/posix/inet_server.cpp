@@ -94,7 +94,7 @@
 #include "../auth/SecureRemotePassword/server/SrpServer.h"
 
 #ifdef UNIX
-#ifdef NETBSD
+#if defined(NETBSD) || defined(__BIONIC__)
 #include <signal.h>
 #else
 #include <sys/signal.h>

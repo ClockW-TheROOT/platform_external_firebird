@@ -105,7 +105,7 @@ private:
 		_controlfp(savedMask, _MCW_EM); // restore saved
 	}
 
-#elif defined(HAVE_FEGETENV)
+#elif defined(HAVE_FEGETENV) || defined(__BIONIC__)
 	static void maskAll() throw()
 	{
 		fesetenv(FE_DFL_ENV);

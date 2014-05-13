@@ -49,8 +49,8 @@
 #if !defined(WIN_NT)
 #include <signal.h>
 #include <sys/ipc.h>
-#include <sys/shm.h>
-#include <sys/sem.h>
+#include <linux/shm.h>
+#include <semaphore.h>
 #endif
 
 #include "../common/file_params.h"
