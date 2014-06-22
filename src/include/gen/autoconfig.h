@@ -1,1 +1,1 @@
-/media/data/documents/programs/dsploit/dSploit/jni/firebird/src/include/gen/autoconfig.auto
+autoconfig.auto
